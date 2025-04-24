@@ -51,12 +51,12 @@ export default function RealImpact() {
                   )}
                   <h3 className="text-xl font-semibold">{exp.title}</h3>
                 </div>
-                <p className="text-sm text-netflix font-medium mb-2">{exp.role}</p>
-                <p className="text-sm text-gray-300 mb-4">{exp.summary}</p>
-                <div className="flex flex-wrap gap-2">
-                  {exp.tags.map((tag, i) => (
+        <p className="text-sm text-netflix font-medium mb-2">{exp.role}</p>
+     <p className="text-sm text-gray-300 mb-4">{exp.summary}</p>
+    <div className="flex flex-wrap gap-2">
+     {exp.tags.map((tag, i) => (
                     <span
-                      key={i}
+            key={i}
                       className="bg-[#292929] text-sm text-white px-3 py-1 rounded-full hover:bg-netflix transition"
                     >
                       {tag}
