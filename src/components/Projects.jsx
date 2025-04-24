@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section id="projects" className="px-4 sm:px-6 md:px-8 py-8 bg-black">
       <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-2">
-      
+         🔥 Projects
       </h2>
 
       <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
