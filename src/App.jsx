@@ -14,6 +14,7 @@ export default function App() {
     setIsChatOpen((prev) => !prev);
   };
 
+  
   return (
     <div className="bg-charcoal text-white font-sans min-h-screen">
       <Navbar />
