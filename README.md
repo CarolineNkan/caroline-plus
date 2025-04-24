@@ -2,7 +2,7 @@
 ## Team Details
 
 **Name:** Caroline Nkan   
-Role: Designer, Developer, and Storyteller
+**Role:** Designer, Developer, and Storyteller
 
 
 ## Project Description
