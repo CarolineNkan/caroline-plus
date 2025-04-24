@@ -35,7 +35,6 @@ export default function ChatbotAvatar({ isOpen, toggleChatbot }) {
 
   return (
     <>
-      {/* Floating Bitmoji Button */}
       <button
         onClick={toggleChatbot}
         className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden shadow-lg transition hover:scale-110 border border-white/20 bg-black animate-subtle-bounce"
@@ -49,7 +48,7 @@ export default function ChatbotAvatar({ isOpen, toggleChatbot }) {
         />
       </button>
 
-      {/* Chat Modal */}
+     
       {isOpen && (
         <div className="fixed bottom-24 right-4 sm:bottom-28 sm:right-6 w-[90%] sm:w-[320px] max-h-[420px] bg-white text-black rounded-lg shadow-2xl p-4 z-50 flex flex-col">
           <div className="flex justify-between items-center mb-2">
